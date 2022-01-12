@@ -4,5 +4,5 @@ resource "harvester_clusternetwork" "vlan" {
   }
   name                 = "vlan"
   enable               = true
-  default_physical_nic = "ens224"
+  default_physical_nic = "harvester-vlan"
 }
